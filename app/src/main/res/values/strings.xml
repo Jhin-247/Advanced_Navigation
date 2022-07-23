@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Base Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="start_quiz">Start quiz</string>
+    <string name="true_1">True</string>
+    <string name="false_1">False</string>
+    <string name="logout">Logout</string>
+    <string name="congrats">Congrats</string>
+    <string name="score">Score:\n %1$d</string>
+    <string name="retest">Retest</string>
+    <string name="failed">Failed</string>
+</resources>

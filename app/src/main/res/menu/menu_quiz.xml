@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_quizFragment_to_onBoardingFragment"
+        android:menuCategory="secondary"
+        android:title="@string/logout"/>
+</menu>
