@@ -65,17 +65,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onBackPressed() {
-        // 2 vì luôn có 1 nav_graph + fragment đầu tiên => activity duy nhất => back thoát app luôn
-        // dungf navigateup sẽ không thể thoát app
-        if (mNavController.getBackQueue().size() == 2) {
-            super.onBackPressed();
-        } else {
-            mNavController.popBackStack();
-        }
-    }
-
-    @Override
     public boolean onSupportNavigateUp() {
         return mNavController.navigateUp() || super.onSupportNavigateUp();
     }
